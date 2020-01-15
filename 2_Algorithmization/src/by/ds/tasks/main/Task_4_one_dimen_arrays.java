@@ -20,7 +20,7 @@ public class Task_4_one_dimen_arrays {
 		array1[4] = 7;
 		array1[5] = 31;
 		
-		for(int i = 0; i < array1.length; i++) {  // вывел в консоль, перебором
+		for(int i = 0; i < array1.length; i++) {  // вывел в консоль
 			System.out.print(" "+ array1[i] + " ");
 		}
 		System.out.println("");
