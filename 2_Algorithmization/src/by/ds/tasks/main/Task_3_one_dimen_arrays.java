@@ -32,9 +32,9 @@ public class Task_3_one_dimen_arrays {
 		}
 		
 		System.out.println("");
-		System.out.println("Sum Posiive:"+ posi_elem);
-		System.out.println("Sum Posiive:"+ negat_elem);
-		System.out.println("Sum Posiive:"+ zero_elem);
+		System.out.println("Positive:"+ posi_elem);
+		System.out.println("Negative:"+ negat_elem);
+		System.out.println("Zero:"+ zero_elem);
 		in.close();
 	}
 
