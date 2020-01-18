@@ -1,5 +1,6 @@
 package by.ds.tasks.main;
 import java.util.Scanner;
+import java.util.Arrays;
 
 /*
  * 8. Дана последовательность целых чисел а1,а2,...,аn. 
@@ -16,7 +17,7 @@ public class Task_8_one_dimen_arrays {
 		System.out.println("");
 		
 		//Создал массив и заполнил его
-		int array[] = new int[size]; 
+		int[] array = new int[size]; 
 		for(int i = 0; i < array.length; i++) {
 			array[i] = (int)(Math.random()*200)-100;
 			System.out.print(" " + array[i] + " ");
@@ -25,20 +26,24 @@ public class Task_8_one_dimen_arrays {
 		// Нашел минимальное число в массиве
 		int min = array[0];
 		for(int t = 0; t < array.length; t++) {
-			if(array[t] < min)
+			if(array[t] < min) 
 				min = array[t];
 		}
+		
 		System.out.println("");
 		System.out.println("Min is: " + min);
 		
-		// Убрал из массива минимальное число в последовательности
+		// Новая последовательность без min
+		int[] array1 = new int[size];
 		for(int j = 0; j < array.length; j++) {
-			if(array[j] == min) {
-				System.out.print(" --- "); // continue
+			if(array[j] != min) {
+				array1[j] = array[j];
+				System.out.print(" " + array1[j] + " ");
 			}else {
-				System.out.print(" " + array[j] + " ");
+				continue;
 			}
 		}
+	
 		in.close();
 	}
 }
