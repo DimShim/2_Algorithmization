@@ -1,6 +1,5 @@
 package by.ds.tasks.main;
 import java.util.Scanner;
-import java.util.Arrays;
 
 /*
  * 8. Дана последовательность целых чисел а1,а2,...,аn. 
