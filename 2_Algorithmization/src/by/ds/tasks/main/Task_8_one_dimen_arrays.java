@@ -29,18 +29,31 @@ public class Task_8_one_dimen_arrays {
 				min = array[t];
 		}
 		
+		// Высчитываем размер нового массива
+		int n = 0;
+		for(int i = 0; i < size; i++) {
+			if(array[i] == min)
+				n++;
+		}	
+		
+		int size1 = size - n;
+		
 		System.out.println("");
 		System.out.println("Min is: " + min);
 		
 		// Новая последовательность без min
-		int[] array1 = new int[size];
+		int[] array1 = new int[size1];
+		int num = 0;
 		for(int j = 0; j < array.length; j++) {
 			if(array[j] != min) {
-				array1[j] = array[j];
-				System.out.print(" " + array1[j] + " ");
-			}else {
-				continue;
+				array1[num] = array[j];
+				num++;
 			}
+		}
+		
+		// Выводим новую последовательность
+		for(int b = 0; b < size1; b++) {
+			System.out.print(" " + array1[b] + " ");
 		}
 	
 		in.close();
