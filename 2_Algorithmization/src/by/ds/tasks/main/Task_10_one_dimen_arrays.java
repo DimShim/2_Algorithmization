@@ -29,6 +29,7 @@ public class Task_10_one_dimen_arrays {
 		for(int z = 0; z < array.length; z++) {
 			System.out.print(" " + array[z] + " ");
 		}
+		in.close();
 	}
 
 }
