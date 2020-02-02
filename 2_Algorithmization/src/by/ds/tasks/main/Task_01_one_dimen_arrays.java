@@ -6,7 +6,7 @@ import java.util.Scanner;
  *    Найти сумму тех элементов, которые кратны данному К.
  */
 
-public class Task_1_one_dimen_arrays {
+public class Task_01_one_dimen_arrays {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);

@@ -5,7 +5,7 @@ package by.ds.tasks.main;
  * 	  Поменять местами наибольший и наименьший элементы.
  */
 
-public class Task_4_one_dimen_arrays {
+public class Task_04_one_dimen_arrays {
 	public static void main(String[] args) {
 		
 		int maximum;

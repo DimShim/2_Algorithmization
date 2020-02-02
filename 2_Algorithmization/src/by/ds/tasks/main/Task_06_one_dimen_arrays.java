@@ -6,7 +6,7 @@ import java.util.Scanner;
  *    Вычислить сумму чисел, порядковые номера которых
  *    являются простыми числами.
  */
-public class Task_6_one_dimen_arrays {
+public class Task_06_one_dimen_arrays {
 	public static void main(String[] args) {
 		
 		int sum = 0;

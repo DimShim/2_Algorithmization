@@ -7,7 +7,7 @@ import java.util.Scanner;
  *    исходной те члены, которые равны min(a1,a2,...,an).
  */
 
-public class Task_8_one_dimen_arrays {
+public class Task_08_one_dimen_arrays {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);

@@ -1,5 +1,5 @@
 package by.ds.tasks.main;
 
-public class Task11_1_arrays {
+public class Task_11_1_arrays {
 
 }

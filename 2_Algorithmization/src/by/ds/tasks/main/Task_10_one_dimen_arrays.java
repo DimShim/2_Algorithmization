@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 	   Дополнительный массив не использовать.
  */
 
-public class Task10_one_dimen_arrays {
+public class Task_10_one_dimen_arrays {
 	public static void main(String [] args) {
 		
 		Scanner in = new Scanner(System.in);

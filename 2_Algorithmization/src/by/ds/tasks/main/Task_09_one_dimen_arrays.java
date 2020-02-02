@@ -1,7 +1,7 @@
 package by.ds.tasks.main;
 import java.util.Arrays;
 
-public class Task_9_one_dimen_arrays {
+public class Task_09_one_dimen_arrays {
  
     public static final int ARRAY_MIN_LENGTH = 5;
     public static final int ARRAY_MAX_LENGTH = 9;

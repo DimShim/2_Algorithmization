@@ -4,7 +4,7 @@ package by.ds.tasks.main;
  * 5. Даны целые числа а1, а2,..., аn. Вывести на 
  * 	  печать только те числа, для которых ai > i.
  */
-public class Task_5_one_dimen_arrays {
+public class Task_05_one_dimen_arrays {
 	public static void main(String[] args) {
 		
 		int [] array1 = {5,2,6,1,4,3,0,-9,10};

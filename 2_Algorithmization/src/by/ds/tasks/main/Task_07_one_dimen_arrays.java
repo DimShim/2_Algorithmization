@@ -6,7 +6,7 @@ import java.util.Scanner;
  *    max(a1+a2n, a2+a2n-1,..., an+an+1).
  */
 
-public class Task_7_one_dimen_arrays {
+public class Task_07_one_dimen_arrays {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
