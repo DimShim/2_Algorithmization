@@ -21,12 +21,15 @@ public class Task_12_2_arrays {
 		}
 		System.out.println();
 		
-		// Выводим элементы по диагонали
-		int t,h;
-		for(h = 0, t = 0; h < 4; h++, t++) {
-			System.out.print(matrix[t][h] + " ");
-			
-			
+		// Выводим элементы по диагонали cлева направо
+		for(int h = 0, t = 0; h < 4; h++, t++) {
+			System.out.print(matrix[t][h] + " ");	
+		}
+		System.out.println();
+		
+		// Выводим элементы по диагонали справа налево
+		for(int q = 0, w = 3; q < 4; q++, w--) {
+			System.out.print(matrix[q][w] + " ");
 		}
 	}
 }
