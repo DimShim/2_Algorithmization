@@ -7,22 +7,24 @@ package by.ds.tasks.main;
 public class Task_11_1_arrays {
 	public static void main(String [] args) {
 		int t, i;
-		int table[][] = new int [3][9];
-								//Заполняем матрицу		
+		int element[][] = new int [3][9];
+		
+		//Заполняем матрицу		
 		for(t = 0; t < 3; ++t) {
 			for(i = 0; i < 9; ++i) {
-				table[t][i] = (int) (Math.random()*10);
-				System.out.print(table[t][i] + " ");
+				element[t][i] = (int) (Math.random()*10);
+				System.out.print(element[t][i] + " ");
 			}
 			System.out.println();
 		}
 		System.out.println();
-								//Находим нужный нам по условию столбец		
+		
+		//Находим нужные нам по условию столбцы		
 		for(int a = 1; a < 9; a+=2) {
-			if(table[0][a] > table[2][a]) {
-				System.out.println(table[0][a]);
-				System.out.println(table[1][a]);
-				System.out.println(table[2][a]);
+			if(element[0][a] > element[2][a]) {
+				System.out.println(element[0][a]);
+				System.out.println(element[1][a]);
+				System.out.println(element[2][a]);
 				System.out.println();
 			}	
 		}
