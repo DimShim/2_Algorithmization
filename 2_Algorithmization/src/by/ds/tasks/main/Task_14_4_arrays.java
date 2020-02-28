@@ -17,8 +17,8 @@ public class Task_14_4_arrays {
 		int matrix [][] = new int[n][n];
 		
 		//заполняем марицу согласно заданию
-		for(int a = 0; a < n; a++) {
-			for(int b = 0; b < n; b++) {
+		for(int a = 0; a < matrix.length; a++) {
+			for(int b = 0; b < matrix.length; b++) {
 				if(a == 0 | a % 2 == 0) {
 					matrix[a][b] = b+1;
 					System.out.print(matrix[a][b] + " ");
