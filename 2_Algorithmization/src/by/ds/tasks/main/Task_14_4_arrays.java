@@ -10,7 +10,7 @@ public class Task_14_4_arrays {
 	public static void main(String [] args) {
 		
 		Scanner in = new Scanner(System.in);
-		System.out.print("Введите n - (четное) размерность матрицы: ");
+		System.out.print("Введите размерность матрицы n - (четное) : ");
 		int n = in.nextInt();
 		System.out.println();
 		
