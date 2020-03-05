@@ -24,11 +24,11 @@ public class Task_15_5_arrays {
 					matrix[a][b] = 0;
 					System.out.print(matrix[a][b] + " ");
 				}else {
-				matrix[a][b] = a+1;
+				matrix[a][b] = a + 1;
 				System.out.print(matrix[a][b] + " ");
 				}
 			}
-			z = z-1;
+			z = z - 1;
 			System.out.println();
 		}
 		System.out.println();
