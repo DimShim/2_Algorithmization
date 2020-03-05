@@ -28,7 +28,7 @@ public class Task_15_5_arrays {
 				System.out.print(matrix[a][b] + " ");
 				}
 			}
-			z = z - 1;
+			z = z-1;
 			System.out.println();
 		}
 		System.out.println();
