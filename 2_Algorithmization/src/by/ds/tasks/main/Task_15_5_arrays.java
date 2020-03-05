@@ -32,5 +32,6 @@ public class Task_15_5_arrays {
 			System.out.println();
 		}
 		System.out.println();
+		in.close();
 	}
 }
