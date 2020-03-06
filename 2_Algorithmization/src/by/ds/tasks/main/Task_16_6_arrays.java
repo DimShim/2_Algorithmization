@@ -19,7 +19,8 @@ public class Task_16_6_arrays {
 		// Заполняем матрицу согласно условию
 		for(int i = 0; i < n; i++) {
 			for(int j = 0; j < n; j++) {
-				if ((j >= i && j + i < n ) || ( j <= i && j + i >= n - 1)){
+				//if ((j >= i && j+i < n ) || ( j <= i && j+i >= n-1))
+				  if ((j >= i && j < n-i) || (j >= n-i-1 && j <= i)){
 					matrix[i][j] = 1;
 					System.out.print(matrix[i][j] + " ");
 				}else {
