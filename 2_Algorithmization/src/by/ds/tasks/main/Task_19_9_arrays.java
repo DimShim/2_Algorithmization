@@ -49,12 +49,12 @@ public class Task_19_9_arrays {
 		for(int t = 0; t < arraySum.length; t++) {
 			if(arraySum[t] > maxim) { 
 				maxim = arraySum[t];
-				numberColum = t+1;
+				numberColum = t+1;	//t+1 так как массив начинается с 0, а не с 1
 			}
 		}
 		System.out.println();
-		System.out.print("Столбец " + numberColum + " содержит максимальную сумму "
-				+ maxim);
+		System.out.print("Столбец " + numberColum + 
+						" содержит максимальную сумму " + maxim);
 		in.close();
 	}
 }
