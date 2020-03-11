@@ -12,7 +12,7 @@ public class Task_21_11_arrays {
 		int matrix[][] = new int[10][20];
 		
 		for(int i = 0; i < matrix.length; i++) {
-			for(int j = 0; j < 20; j++) {
+			for(int j = 0; j < matrix[i].length; j++) {
 				int x = 0, y = 15;
 				int number = (int)(Math.random()*((y-x)+1) + x);
 				matrix[i][j] = number;
@@ -32,7 +32,7 @@ public class Task_21_11_arrays {
 		// ту строку в которой их 3 и больше.
 		int counter = 0; // счетчик "5"
 		for(int q = 0; q < matrix.length; q++) {
-			for(int w = 0; w < 20; w++) {
+			for(int w = 0; w < matrix[q].length; w++) {
 				if(matrix[q][w] == 5) 
 					counter ++;
 			}
