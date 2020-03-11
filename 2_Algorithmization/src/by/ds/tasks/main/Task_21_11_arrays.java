@@ -16,9 +16,6 @@ public class Task_21_11_arrays {
 				int x = 0, y = 15;
 				int number = (int)(Math.random()*((y-x)+1) + x);
 				matrix[i][j] = number;
-				//if(number >= 0 && number <= 15) {
-				//	matrix[i][j] = number;
-				//}
 			}
 		}
 		
@@ -31,11 +28,13 @@ public class Task_21_11_arrays {
 		}
 		System.out.println();
 		
+		// Находим 5-ки в каждой строке и выводим
+		// ту строку в которой их 3 и больше.
 		int counter = 0; // счетчик "5"
 		for(int q = 0; q < matrix.length; q++) {
 			for(int w = 0; w < 20; w++) {
 				if(matrix[q][w] == 5) 
-					counter += 1;
+					counter ++;
 			}
 			if(counter >= 3)
 				System.out.println("Строка " + q + " имеет три или более 5-ок.");
