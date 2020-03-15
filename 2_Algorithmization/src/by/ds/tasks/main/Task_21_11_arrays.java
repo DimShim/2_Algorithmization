@@ -14,7 +14,7 @@ public class Task_21_11_arrays {
 		for(int i = 0; i < matrix.length; i++) {
 			for(int j = 0; j < matrix[i].length; j++) {
 				int x = 0, y = 15;
-				int number = (int)(Math.random()*((y-x)+1) + x);
+				int number = (int)(Math.random()*((y-x)+1) + x);//16
 				matrix[i][j] = number;
 			}
 		}
