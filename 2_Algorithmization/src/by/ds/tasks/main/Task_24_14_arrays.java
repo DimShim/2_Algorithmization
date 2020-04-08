@@ -11,8 +11,6 @@ public class Task_24_14_arrays {
 		
 		int m = (int)(Math.random()*15);
 		int n = m;
-		System.out.print("Строк: " + m + "\n");
-		System.out.print("Столбцов: " + n + "\n");
 		
 		int matrix[][] = new int[m][n];
 		
