@@ -35,13 +35,12 @@ public class Task_24_14_arrays {
         }
 		*/
 		// Выводим матрицу используя цикл for-each
-				for(int z[] : matrix) {
-					for(int x : z) {
-						System.out.print(x + "\t");
-					}
-					System.out.println();
-				}
-				System.out.println();
+		for(int z[] : matrix) {
+			for(int x : z) {
+				System.out.print(x + "\t");
+			}
+			System.out.println();
+		}
+		System.out.println();
 	}
-
 }
